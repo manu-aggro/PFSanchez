@@ -38,8 +38,9 @@ ul li {
     list-style: none;
     color: bisque;
     padding-bottom: 0 !important;
+    padding-right: 10px;
     justify-content: flex-end;
-    margin: 10px;
+    margin: 10px 0px 10px 10px;
     font-size: 0.7em;
     text-align: center;
 
