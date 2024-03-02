@@ -6,6 +6,7 @@ overflow-x: hidden !important;
 }
 
 
+
 .nav-container {
     background-color: black;
     display: flex;
@@ -35,7 +36,7 @@ ul {
     display: flex;
     margin:0;
     padding: 0;
-    margin-right: 20px;
+    margin-right: 5px;
 
 }
 
@@ -153,7 +154,34 @@ footer{
 footer img{
     margin-right: 1rem;
 }
+@media only screen and (max-width: 350px){
+    .menu-navbar {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        margin-right: 1em;
 
+    
+    
+    }
+    
+    ul {
+        flex-direction: column;
+        margin:0;
+        padding: 0;
+        
+    
+    }
+    
+    ul li {
+        margin: 0;
+        padding: 0;
+
+      }
+
+}
 @media only screen and (min-width: 1024px){
 
     .bodega-container{
