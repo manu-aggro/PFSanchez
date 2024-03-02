@@ -22,7 +22,7 @@ overflow-x: hidden !important;
     display: flex;
     justify-content: end;
     align-items: flex-end;
-    margin-right: 30px;
+    margin-right: 60px !important;
 
 
 }
@@ -146,6 +146,7 @@ footer{
     background-color: black;
     position: sticky;
     bottom: 0;
+    overflow-y:hidden;
     
 }
 
