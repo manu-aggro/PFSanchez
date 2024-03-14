@@ -1,1 +1,4 @@
-style copy
+node_modules
+package.json
+package-lock.json
+style copy.css
