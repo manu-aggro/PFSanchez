@@ -8,32 +8,46 @@
     <link rel="stylesheet" href="../style/style.css">
 </head>
   <body>
-  <header>
-    <nav class="nav-container">
-      <div>
-        <a href="../index.html"><img href="" src="../img/LOGO PNG (SIN FONDO).png" alt="" class="logo-pagina"></a>
-      </div>
-        <div class="menu-navbar">
-            <ul>
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
+    <header>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img class="logo-header" src="../img/logo-melopea.png" alt="logo melopea"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Melopea | Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                 </li>
-                <li>
-                    <a href="nuestras-cervezas.html">Nuestras cervezas</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
                 </li>
-                <li>
-                    <a href="tienda.html">Tienda</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="nuestras-cervezas.html">Nuestras cervezas</a>
                 </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
-            </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="tienda.html">Tienda</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
         </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
+  
 
   <main>
-    <section class="nosotros-container">
+    <section class="card-container">
         <div class="card" style="width: 18rem;">
             <img src="../img/coche.jpg" class="card-img-top" alt="foto-coche">
             <div class="card-body">
@@ -49,7 +63,7 @@
           <div class="card" style="width: 18rem;">
             <img src="../img/futbol.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Nos gusta mucho el futbol, el buen comer, reirnos sin parar y beber cerveza. Todo esto se refleja en nuestra forma de entender las cervezas</p>
+              <p class="card-text">Nos gusta mucho el futbol, el buen comer,el hip hop,viajar, reirnos sin parar y beber cerveza. Todo esto se refleja en nuestra forma de entender las cervezas</p>
             </div>
           </div>
        
@@ -58,13 +72,11 @@
       <footer>
         <div class="footer">
     
-          <img src="../img/icono-insta.png" alt="instagram">
-          <img src="../img/icono-mail.png" alt="email">
-          
-        </div>
-    </section>
+          <a href="../index.html"><img  src="../img/icono-insta.png" alt="instagram"></a>
+          <a href="../index.html"><img src="../img/icono-mail.png" alt="email"></a>
     
-  </footer>
+        </div>
+      </footer>
 
     
     

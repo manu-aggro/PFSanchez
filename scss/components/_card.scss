@@ -1,0 +1,11 @@
+@mixin card {
+    width: 100% !important;
+    margin: 1em;
+    border: 1px solid $color-tipografia-principal;
+    background: rgb(21,21,112);
+    background: linear-gradient(90deg, rgba(21,21,112,1) 16%, rgba(2,8,37,1) 100%);
+
+    .card-text {
+        text-align: center;
+    }
+}

@@ -1,0 +1,14 @@
+@import 'base/reset';
+@import 'base/tipografia';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/background';
+
+@import'components/card';
+@import'components/boton';
+
+@import 'pages/home';
+@import 'pages/nuestras-cervezas';
+@import 'pages/contacto';
+@import 'pages/nosotros';
+@import 'pages/tienda';
