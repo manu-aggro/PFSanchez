@@ -64,6 +64,14 @@ h1 {
   margin: 1em;
 }
 
+@keyframes desvanecer {
+  from {
+    opacity: 50%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
 .bodega-container {
   margin: 1em;
   margin-top: 5.8em;
@@ -104,17 +112,58 @@ h1 {
 }
 .card-container .card {
   width: 100% !important;
+  overflow-y: hidden !important;
   margin: 1em;
   border: 1px solid bisque;
   background: rgb(21, 21, 112);
   background: linear-gradient(90deg, rgb(21, 21, 112) 16%, rgb(2, 8, 37) 100%);
+  max-width: 550px;
 }
 .card-container .card .card-text {
   text-align: center;
 }
 
+.card-container {
+  overflow-y: hidden;
+}
 .card-container h5 {
   color: bisque;
+}
+
+@media only screen and (min-width: 600px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-container .card {
+    max-width: 250px;
+  }
+  .card-container .card .card-img-top {
+    height: 250px;
+  }
+  .card-nosotros {
+    max-width: 500px !important;
+    max-height: 600px !important;
+  }
+  .card-nosotros .card-img-top {
+    height: auto !important;
+  }
+  .bodega-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .bodega-container img {
+    max-width: 700px !important;
+  }
+  .bodega-container p {
+    margin: auto;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

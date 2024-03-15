@@ -1,3 +1,14 @@
+@keyframes desvanecer {
+    from {
+        opacity: 50%;
+    }
+
+    to {
+        opacity: 0%;
+    }
+    
+}
+
 .bodega-container{
     
     margin:1em;
@@ -10,6 +21,6 @@
         margin: 1em;
     }
     img{
-        margin:1em;
+        margin:1em;  
     }
 }
