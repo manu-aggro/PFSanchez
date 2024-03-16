@@ -86,7 +86,21 @@ h1 {
 .bodega-container img {
   margin: 1em;
 }
+.bodega-container img:hover {
+  animation-name: desvanecer;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
 
+@keyframes desvanecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .contacto-container {
   margin: 1em;
   margin-top: 8em;
@@ -163,6 +177,11 @@ h1 {
   .bodega-container p {
     margin: auto;
     text-align: center;
+  }
+}
+@media only screen and (min-width: 1720px) {
+  .card-container {
+    height: 750px !important;
   }
 }
 
