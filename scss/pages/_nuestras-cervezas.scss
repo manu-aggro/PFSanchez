@@ -23,7 +23,8 @@
       
     }
     img{
-        margin:1em;  
+        margin:1em;
+        border: black 1px solid;  
         &:hover {
             animation-name: desvanecer;
             animation-duration: 2s;

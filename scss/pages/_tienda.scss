@@ -1,6 +1,41 @@
-.card-container {
-    overflow-y: hidden;
-    h5 {
-        color:$color-tipografia-principal
+.cards{
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+    
+    .card-container {
+        overflow: hidden;
+        min-width: 18rem;
+        
+        
+        
+    
+        
+        .card{
+            margin: 50px;
+            .card-body{
+                display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 10px;
+            background-color:black ;
+                
+                    
+                    .card-title {
+                        color:$color-tipografia-principal;
+                        text-align: center;
+                        
+                    }
+                    .card-text{
+                        font-size: small;
+                        color:$color-tipografia-principal;
+                    }
+                
+            
+            }
+            
+        }
     }
 }

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  cursor: url("/img/cursor.png"), auto;
 }
 
 * {
@@ -33,35 +34,37 @@ main {
   background-color: #102c54;
 }
 
-.carrusel-imagenes-index {
-  margin-top: 6.6em;
+.logo-container {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-container .logo-intro {
+  width: 40em;
 }
 
 h1 {
-  margin-top: 30px;
+  margin-top: 0px;
   text-align: center;
   font-size: 4rem;
   font-weight: 600;
   text-shadow: black 5px 5px;
 }
 
-.button-container {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
+.intro-container {
+  margin: 30px;
+  margin-bottom: 50px;
+}
+.intro-container h3 {
+  font-size: x-large;
+  text-align: center;
 }
 
-.colage {
-  margin-top: 30px;
-  margin-bottom: 4em;
-}
-.colage .col {
+.button-container-home {
+  margin-bottom: 60px;
   display: flex;
-  align-items: center;
-}
-.colage .col p {
-  font-size: 1em;
-  margin: 1em;
+  justify-content: center;
 }
 
 @keyframes desvanecer {
@@ -85,6 +88,7 @@ h1 {
 }
 .bodega-container img {
   margin: 1em;
+  border: black 1px solid;
 }
 .bodega-container img:hover {
   animation-name: desvanecer;
@@ -101,46 +105,29 @@ h1 {
     opacity: 1;
   }
 }
-.contacto-container {
-  margin: 1em;
-  margin-top: 8em;
-  margin-bottom: 3em;
+.cards {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.cards .card-container {
+  overflow: hidden;
+  min-width: 18rem;
+  margin: 10px;
+}
+.cards .card-container .card .card-body {
   display: flex;
-  flex-direction: column;
-}
-.contacto-container .mapa-container .mapa {
-  width: 100%;
-}
-.contacto-container .datos-contacto p {
-  text-align: center;
-  margin-top: 1em;
-}
-
-.card-container {
-  margin: 1em;
-  margin-top: 7em;
-  margin-bottom: 3em;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
 }
-.card-container .card {
-  width: 100% !important;
-  overflow-y: hidden !important;
-  margin: 1em;
-  border: 1px solid bisque;
-  background: rgb(21, 21, 112);
-  background: linear-gradient(90deg, rgb(21, 21, 112) 16%, rgb(2, 8, 37) 100%);
-  max-width: 550px;
-}
-.card-container .card .card-text {
+.cards .card-container .card .card-body .card-title {
+  color: bisque;
   text-align: center;
 }
-
-.card-container {
-  overflow-y: hidden;
-}
-.card-container h5 {
+.cards .card-container .card .card-body .card-text {
+  font-size: small;
   color: bisque;
 }
 
